@@ -318,7 +318,7 @@ In the Jenkins dashboard:
      - select "GitHub hook trigger for GITScm polling"
      ![Image 23](example_imgs/10.3.png)
      ddd
-     
+     ##älhj
    - Under pipeline:
    
        - Select "Pipeline script from SCM" for definition
