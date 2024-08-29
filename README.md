@@ -317,6 +317,7 @@ In the Jenkins dashboard:
    - Under build triggers:
      - select "GitHub hook trigger for GITScm polling"
      ![Image 23](example_imgs/10.3.png)
+     ddd
      
    - Under pipeline:
    
