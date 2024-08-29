@@ -2,6 +2,6 @@ version: "3.3"
 services:
   web:
     #image that was pushed to docker hub
-    image: buvana23/My-app:latest
+    image: buvana23/my-app:latest
     ports:
       - "8000:8000"
