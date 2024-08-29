@@ -22,7 +22,7 @@ pipeline {
                 withCredentials([usernamePassword(credentialsId: "dockerHub", passwordVariable: "dockerHubPass", usernameVariable: "dockerHubUser")]) {
                     sh "docker tag my-app ${env.dockerHubUser}/my-app:latest"
                     sh "echo ${env.dockerHubPass} | docker login -u ${env.dockerHubUser} --password-stdin"
-                    sh "docker push ${env.dockerHubUser}/My-app:latest"
+                    sh "docker push ${env.dockerHubUser}/my-app:latest"
                 }
             }
         }
